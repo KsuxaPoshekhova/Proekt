@@ -1,11 +1,11 @@
 public class Domacka {
 
     public static void main(String[] args) {
-        int x = 13_676;
-        int u = 20;
+        int deposit  = 13_676;
+        int forEveryDeposited = 20;
 
 
-        System.out.println( x/20);
+        System.out.println("Количество бонусов составляет");
+        System.out.println(deposit / forEveryDeposited );
     }
-
 }
